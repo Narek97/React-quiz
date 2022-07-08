@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body > #root > div {
+  height: 100vh;
+}
+
+.page-not-found {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #cd0001;
+}
+
+.nav-wrapper{
+  width: 100%;
+  height: 64px;
+  display: flex;
+  background-color: #cd0001;
+}
+
+.home {
+  height: calc(100% - 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home > h1 {
+  font-size: 24px;
+  text-align: center;
+  color: blue;
+}
