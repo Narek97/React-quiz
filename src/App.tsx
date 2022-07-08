@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Routing from "./routes/Routing";
 import { useWindowSize } from "./hooks/useWindowSize";
+import MobileNavBar from "./components/MobileNavBar";
 
 const App = () => {
   const [x] = useWindowSize();
@@ -11,7 +12,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className={"app"}>
-        {x > 1000 ? <Navbar /> : null}
+        {x > 1000 ? <Navbar /> : <MobileNavBar pageWrapId={"page-wrap"} outerContainerId={"App"} />}
 
         <Routing />
       </div>

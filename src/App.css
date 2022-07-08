@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Edu QLD Beginner", cursive;
 }
 
 body > #root > div {
@@ -16,13 +20,6 @@ body > #root > div {
   color: #cd0001;
 }
 
-.nav-wrapper{
-  width: 100%;
-  height: 64px;
-  display: flex;
-  background-color: #cd0001;
-}
-
 .home {
   height: calc(100% - 64px);
   display: flex;
@@ -35,3 +32,5 @@ body > #root > div {
   text-align: center;
   color: blue;
 }
+
+
