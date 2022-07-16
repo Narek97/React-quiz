@@ -14,7 +14,10 @@
 
 .nav-wrapper--ul{
   display: flex;
+  align-items: center;
+  font-size: 18px;
   gap: 40px;
+  margin: 0;
 }
 
 .nav-wrapper--link {
@@ -26,6 +29,3 @@
   color: #ffffff;
 }
 
-.active {
-  color: #0000ffff;
-}

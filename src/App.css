@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,11 @@ body > #root > div {
   height: 100vh;
 }
 
+.app{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .page-not-found {
   position: absolute;
   top: 50%;
@@ -20,17 +26,5 @@ body > #root > div {
   color: #cd0001;
 }
 
-.home {
-  height: calc(100% - 64px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.home > h1 {
-  font-size: 24px;
-  text-align: center;
-  color: blue;
-}
 
 
